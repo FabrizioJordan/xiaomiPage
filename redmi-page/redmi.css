@@ -1,0 +1,92 @@
+ @font-face {
+   font-family: 'Lato';
+   src: url(/assets/fonts/Lato-Regular.ttf);
+   font-display: fallback;
+ }
+
+ @font-face {
+   font-family: 'ClassicalDiary';
+   src: url(/assets/fonts/ClassicalDiary.ttf);
+   font-display: fallback;
+ }
+
+ .font-lato {
+   font-family: 'Lato' !important;
+ }
+
+ .font-diary {
+   font-family: 'ClassicalDiary' !important;
+ }
+
+ .bg-colors-5 {
+   background: #575757;
+ }
+
+ .bg-colors-7 {
+   background: #ffab38;
+ }
+
+ .h-50screen {
+   height: 150vh;
+ }
+
+ .h-70VH {
+   height: 70vh;
+ }
+
+ .h-70full {
+   height: 70%;
+ }
+
+ .h-45VH {
+   height: 45vh;
+ }
+
+ body {
+   background-color: #f7f7f7;
+ }
+
+ main {}
+
+ #principalPhoto {
+   background-image: url(/assets/img/shanghai.jpg);
+ }
+
+
+ [tailwind="figure__absolute-h1"] {
+   text-shadow: 2px 2px 1px #444444;
+   color: #ffb329;
+   letter-spacing: 2px;
+ }
+
+ [tailwind="figure__absolute-h2"] {
+   text-shadow: 1px 1px 1px #444444;
+ }
+
+
+
+ #app {
+   width: 90%;
+ }
+
+ #card-script {
+   height: 60%;
+   background: #d1d1d1;
+   color: black;
+ }
+
+ .show-card-text {
+   transition: opacity 1s linear;
+   opacity: 1 !important;
+ }
+
+ .card-text-data {}
+
+ .card-text-buy {
+   width: 66%;
+   transition: background .6s linear;
+ }
+
+ .card-text-buy:hover {
+   background-color: white;
+ }

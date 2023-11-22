@@ -1,0 +1,47 @@
+[
+    {
+        "type": "tv",
+        "products": [
+        {
+            "name": "Xiaomi TV A FHD",
+            "pulgadas": 43,
+            "image": "/assets/img/smart-home/tv/"
+        },
+        {
+            "name": "Xiaomi TV A Pro",
+            "pulgadas": 55,
+            "image": "/assets/img/smart-home/tv/"
+        },
+        {
+            "name": "Xiaomi TV Q2",
+            "pulgadas": 65,
+            "image": "/assets/img/smart-home/tv/"
+        }
+        ]
+    },
+    {
+        "type": "smart device",
+        "products": [
+        {
+            "name": "Xiaomi Smart Camera C300",
+            "product-type": "Camera",
+            "image": "/assets/img/smart-home/smart-device/"
+        },
+        {
+            "name": "Mi Camera 2K Magnetic Mount",
+            "product-type": "Camera",
+            "image": "/assets/img/smart-home/smart-device/"
+        },
+        {
+            "name": "Mi 360° Home Security Camera 2K Pro",
+            "product-type": "Camera",
+            "image": "/assets/img/smart-home/smart-device/"
+        },
+        {
+            "name": "Mi Door and Window Sensor 2",
+            "product-type": "Sensor",
+            "image": "/assets/img/smart-home/smart-device/"
+        }
+        ]
+    }
+]

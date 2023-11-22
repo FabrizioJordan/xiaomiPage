@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "name": "Xiaomi Mi Mix 2",
+        "image": "/assets/img/phoneMi/mix2-transformed.png",
+        "ram": "6GB/8GB",
+        "storage": "64GB/128GB/256GB",
+        "expansion": "No Data",
+        "pantalla": "5.99",
+        "camaraAtras": "12 megapíxeles",
+        "price": "140USD"
+    },
+    {
+        "id": "2",
+        "name": "Xioami Redmi Note 11 Pro 5G",
+        "image": "/assets/img/phoneRedmi/note11-transformed.png",
+        "ram": "6GB",
+        "storage": "128GB/256GB",
+        "expansion": "Micro SD hasta 512 GB",
+        "pantalla": "6,43",
+        "camaraAtras": "108 megapíxeles",
+        "price": "420USD"
+    },
+    {
+        "id": "3",
+        "name": "Xiaomi Redmi 9A",
+        "image": "/assets/img/phoneRedmi/r9a-transformed.png",
+        "ram": "2GB",
+        "storage": "32GB",
+        "expansion": "Micro SD hasta 512 GB",
+        "pantalla": "6,53",
+        "camaraAtras": "13 megapíxeles",
+        "price": "109USD"
+    }
+]

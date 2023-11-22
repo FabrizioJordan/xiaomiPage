@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script defer src="/index-page/script.js"></script>
+    <script defer src="/smart-page/smart-home.js"></script>
+    <link rel="shortcut icon" href="/assets/svg/Xiaomi_logo.svg" type="image/x-icon">
+    <title>Xiaomi Corporation - TV & Media Product List</title>
+</head>
+
+<body class="font-lato">
+
+    <header class="font-oswald bg-neutral-800 p-4 text-white tracking-widest">
+        <section class="flex justify-around">
+
+            <article class="flex md:hidden">
+                <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
+            </article>
+
+            <article class="hidden md:flex justify-center items-center gap-2 font-semibold text-base">
+                <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
+                <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                    rel="noopener noreferrer" href="/index.html">Xiaomi</a>
+                <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                    rel="noopener noreferrer" href="/redmi-page/redmi.html">Redmi</a>
+                <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                    rel="noopener noreferrer" href="/smart-page/smart-home.html">Smart Home</a>
+                <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                    rel="noopener norefferrer" href="/index.html">
+                    Life Style</a>
+            </article>
+
+            <article class="hidden md:flex justify-center items-center gap-4 text-base font-semibold">
+                <button class="p-2 text-orange-500">Soporte</button>
+                <button id="loginBtn"
+                    class="bg-white text-orange-700 rounded py-3 px-4 transition-colors duration-700 hover:bg-orange-500 hover:text-white">Iniciar
+                    Sesión</button>
+                <button id="registerBtn"
+                    class="bg-orange-300 text-black rounded py-3 px-4 transition-colors duration-700 border border-transparent hover:border-white hover:bg-black hover:text-white">Registrarse</button>
+            </article>
+
+            <article id="menu__Art" class="md:hidden flex gap-2 justify-center items-center">
+                <h3>Menú</h3>
+                <img class="invert w-8" src="/assets/svg/list.svg" alt="menu icon">
+            </article>
+
+            <section id="menu"
+                class="hidden fixed top-0 pt-8 bg-colors-5 h-screen w-full justify-center items-center z-10 align-center grid-cols-1 grid-rows-6 ease-in">
+                <section class="w-full h-full">
+                    <article class="flex justify-around items-center">
+                        <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
+                        <img id="btnCloseMenu" class="w-10 invert" src="/assets/svg/x.svg" alt="">
+                    </article>
+                </section>
+                <section class="row-span-5 h-full">
+                    <article class="flex justify-center items-center gap-2 flex-col  text-base font-semibold">
+                        <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                            rel="noopener noreferrer" href="/index.html">Xiaomi</a>
+                        <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                            rel="noopener noreferrer" href="/redmi-page/redmi.html">Redmi</a>
+                        <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                            rel="noopener noreferrer" href="/smart-page/smart-home.html">Smart Home</a>
+                        <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                            rel="noopener noreferrer" href="/index.html">
+                            Life Style</a>
+                    </article>
+                    <article class="flex justify-center items-center gap-4 flex-col text-base font-semibold">
+                        <button class="p-2 text-orange-500">Soporte</button>
+                        <button id="loginBtn"
+                            class="bg-white text-orange-700 rounded py-3 px-4 transition-colors duration-700 hover:bg-orange-500 hover:text-white">Iniciar
+                            Sesión</button>
+                        <button id="registerBtn"
+                            class="bg-orange-300 text-black rounded py-3 px-4 transition-colors duration-700 border border-transparent hover:border-white hover:bg-black hover:text-white">Registrarse</button>
+                    </article>
+                </section>
+            </section>
+
+        </section>
+    </header>
+
+    <main class="">
+
+        <section class="text-center flex flex-col justify-center items-center tracking-wide">
+
+            <article class="w-full h-full bg-colors-9 text-black flex flex-col justify-center items-center gap-4 py-8">
+              <h1 class="text-2xl font-bold tracking-widest  ">TV & Media</h1>
+
+              <div class="w-full h-full flex flex-col justify-center items-center gap-1 sm:px-4">
+                <section class="grid grid-rows-2 md:grid-rows-1 my-grid-1 gap-1 w-full h-full justify-center items-center text-center tracking-wider">
+
+                  <article class="col-span-12 md:col-span-4 w-full h-full bg-white p-4 flex flex-col justify-center items-center py-8 gap-2 cursor-pointer transition hover-box-shadow-1">
+                    <div class="flex flex-col gap-4 justify-center items-center">
+                      <h1 class="text-lg sm:text-xl font-semibold">TV  Xiaomi TV A 43 FHD</h1>
+                      <h2 class="text-lg sm:text-sm">Smart life, limitless vision</h2>
+                      <button class="text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></button>
+                      </div>
+                    <img src="/assets/img/smart-home/tv/tv1.webp" alt="">
+                  </article>  
+
+                  <article class="col-span-6 md:col-span-4 w-full h-full bg-white p-4 flex flex-col justify-center items-center py-8 gap-2 cursor-pointer transition hover-box-shadow-1">
+                    <div class="flex flex-col gap-4 justify-center items-center">
+                      <h1 class="text-lg sm:text-xl font-semibold">TV  Xiaomi TV A 43 FHD</h1>
+                      <h2 class="text-sm">Smart life, limitless vision</h2>
+                      <button class="text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></button>
+                    </div>
+                    <img src="/assets/img/smart-home/tv/tv2.png" alt="">
+                  </article>
+                  
+                  <article class="col-span-6 md:col-span-4 w-full h-full bg-white p-4 flex flex-col justify-center items-center py-8 gap-2 cursor-pointer transition hover-box-shadow-1">
+                    <div class="flex flex-col gap-4 justify-center items-center">
+                      <h1 class="text-lg sm:text-xl font-semibold">TV  Xiaomi TV A 43 FHD</h1>
+                      <h2 class="text-sm">Smart life, limitless vision</h2>
+                      <button class="text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></button>
+                      </div>
+                    <img src="/assets/img/smart-home/tv/tv3.webp" alt="">
+                  </article>
+
+                  <article class="col-span-6 md:col-span-4 w-full h-full bg-white p-4 flex flex-col justify-center items-center py-8 gap-2 cursor-pointer transition hover-box-shadow-1">
+                    <div class="flex flex-col gap-4 justify-center items-center">
+                      <h1 class="text-lg sm:text-xl font-semibold">TV  Xiaomi TV A 43 FHD</h1>
+                      <h2 class="text-sm">Smart life, limitless vision</h2>
+                      <button class="text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></button>
+                      </div>
+                    <img src="/assets/img/smart-home/tv/tv3.webp" alt="">
+                  </article>
+
+                  <article class="col-span-6 md:col-span-4 w-full h-full bg-white p-4 flex flex-col justify-center items-center py-8 gap-2 cursor-pointer transition hover-box-shadow-1">
+                    <div class="flex flex-col gap-4 justify-center items-center">
+                      <h1 class="text-lg sm:text-xl font-semibold">TV  Xiaomi TV A 43 FHD</h1>
+                      <h2 class="text-sm">Smart life, limitless vision</h2>
+                      <button class="text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></button>
+                      </div>
+                    <img src="/assets/img/smart-home/tv/tv3.webp" alt="">
+                  </article>
+
+                  <article class="col-span-6 md:col-span-4 w-full h-full bg-white p-4 flex flex-col justify-center items-center py-8 gap-2 cursor-pointer transition hover-box-shadow-1">
+                    <div class="flex flex-col gap-4 justify-center items-center">
+                      <h1 class="text-lg sm:text-xl font-semibold">TV  Xiaomi TV A 43 FHD</h1>
+                      <h2 class="text-sm">Smart life, limitless vision</h2>
+                      <button class="text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></button>
+                      </div>
+                    <img src="/assets/img/smart-home/tv/tv3.webp" alt="">
+                  </article>
+
+                  <article class="col-span-6 md:col-span-4 w-full h-full bg-white p-4 flex flex-col justify-center items-center py-8 gap-2 cursor-pointer transition hover-box-shadow-1">
+                    <div class="flex flex-col gap-4 justify-center items-center">
+                      <h1 class="text-lg sm:text-xl font-semibold">TV  Xiaomi TV A 43 FHD</h1>
+                      <h2 class="text-sm">Smart life, limitless vision</h2>
+                      <button class="text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></button>
+                      </div>
+                    <img src="/assets/img/smart-home/tv/tv3.webp" alt="">
+                  </article>
+                </section>
+              </div>  
+
+            </article>
+
+            
+
+        </section>
+
+    </main>
+
+
+  <!--Footer container-->
+  <footer class="bg-colors-10 w-full h-full">
+
+    <div class="flex flex-col justify-center items-center w-full h-full py-8 gap-16">
+
+      <div class="flex flex-row justify-evenly items-center w-full h-full">
+        <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
+        <h1 class="text-2xl font-semibold text-orange-500">Xiaomi Corporation</h1>
+      </div>
+
+      <section class="flex flex-row justify-around items-center w-full h-full">
+
+        <article class="flex flex-col justify-center items-center gap-4">
+          <h2 class="text-orange-500 font-semibold text-2xl">Pages</h2>
+          <ul class="flex flex-col justify-center items-center text-color-1 gap-8">
+            <li class="text-lg"><a href="/index.html">Xiaomi</a></li>
+            <li class="text-lg"><a href="/redmi-page/redmi.html">Redmi</a></li>
+            <li class="text-lg"><a href="/smart-page/smart-home.html">Smart Home</a></li>
+            <li class="text-lg"><a href="/">Life Style</a></li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col justify-center items-center gap-4">
+          <h2 class="text-orange-500 font-semibold text-2xl">Contact</h2>
+          <div class="flex flex-col justify-center items-center text-color-1 gap-12">
+
+            <a href="" class="flex flex-row flex-wrap justify-between items-center gap-x-8">
+              <img class="inline-block w-6 h-6 invert-04 max-w-xs hover:scale-110 cursor-pointer"
+                src="/assets/svg/instagram.svg" alt="">
+            </a>
+
+            <a href="" class="flex flex-row flex-wrap justify-between items-center gap-x-8">
+              <img class="inline-block w-6 h-6 invert-04 max-w-xs hover:scale-110 cursor-pointer"
+                src="/assets/svg/twitter.svg" alt="">
+            </a>
+
+            <a href="" class="flex flex-row flex-wrap justify-between items-center gap-x-8">
+              <img class="inline-block w-6 h-6 invert-04 max-w-xs hover:scale-110 cursor-pointer"
+                src="/assets/svg/github.svg" alt="">
+            </a>
+
+          </div>
+        </article>
+
+        <ul class="flex flex-col justify-center items-center text-color-1 gap-4">
+
+          <li class="flex flex-row flex-wrap w-40 justify-between items-center gap-x-8">
+            <img class="inline-block w-6 h-6 invert-04 max-w-xs" src="/assets/svg/question-circle-fill.svg" alt="">
+            <p>¿Tienes Preguntas?</p>
+          </li>
+
+          <li class="flex flex-row flex-wrap w-40 justify-between items-center gap-x-8">
+            <img class="inline-block w-6 h-6 invert-04 max-w-xs" src="/assets/svg/gear-fill.svg" alt="">
+            <p>Gestionar privacidad.</p>
+          </li>
+
+          <li class="flex flex-row flex-wrap w-40 justify-between items-center gap-x-8">
+            <img class="inline-block w-6 h-6 invert-04 max-w-xs" src="/assets/svg/shield-shaded.svg" alt="">
+            <p>Transparencia en las recomendaciones.</p>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </div>
+
+    <!--Copyright section-->
+    <div class="p-4 text-center">
+      <p class="text-xs text-color-1">Xioami Corporation © 2023</p>
+    </div>
+
+  </footer>
+
+  <!--   LOGIN POPUP    -->
+  <section id="login" class="hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+    <article class="relative w-4/5 h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
+        <h1 class="font-bold text-2xl">Iniciar Sesión</h1>
+        <main class="">
+
+            <section class="p-4">
+                <form action="" method="post">
+          
+                  
+                  <fieldset class="">
+                    <legend>Datos Personales</legend> 
+                    <label for="nameLogin">Nombre:</label> 
+                    <input id="nameLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
+                  </fieldset>
+          
+                  <fieldset>
+                    <label for="passLogin">Ingrese Contraseña:</label>
+                    <input id="passLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
+                  </fieldset>   
+                  <br>
+                  <button class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
+          
+                </form>
+          
+              </section>
+
+        </main>
+
+        <div class="absolute top-12 right-12">
+            <img id="closeLogin" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
+        </div>
+
+    </article>
+  </section>
+
+
+  <!--   REGISTER POPUP    -->
+  <section id="register" class="hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+    <article class="relative w-4/5 h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
+        <h1 class="font-bold text-2xl">Registrarse</h1>
+        <main class="">
+
+            <section class="p-4">
+                <form action="" method="post">
+          
+                  
+                    <fieldset class="">
+                        <legend>Datos Personales</legend>
+                        <label for="nameRegister">Nombre:</label> 
+                        <input class="text-black border border-black my-1 rounded pl-2" id="nameRegister" type="text">
+                        <br>
+                        <label for="surnameRegister">Apellido:</label> 
+                        <input class="text-black border border-black my-1 rounded pl-2" id="surnameRegister" type="text">
+                      </fieldset>
+              
+                      <fieldset>
+                        <legend>Contacto</legend> 
+                        <label for="phoneRegister">Telefono:</label> 
+                        <input class="text-black border border-black my-1 rounded pl-2" id="phoneRegister" type="text">
+                      </fieldset>
+              
+                      <fieldset>
+                        <legend>Indique el sexo</legend> 
+                        <label for="maleRegister">Masculino</label> 
+                        <input id="maleRegister" type="radio">
+                        <br>
+                        <label for="femaleRegister">Femenino</label> 
+                        <input id="femaleRegister" type="radio">
+                      </fieldset>
+                  <br>
+                  <button class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
+          
+                </form>
+          
+              </section>
+
+        </main>
+
+        <div class="absolute top-12 right-12">
+            <img id="closeRegister" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
+        </div>
+
+    </article>
+  </section>
+
+
+</body>
+
+</html>

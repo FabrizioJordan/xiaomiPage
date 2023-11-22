@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Xioami Redmi Note 11 Pro 5G",
+    "image": "/assets/img/phoneRedmi/note11-transformed.png",
+    "ram": "6GB",
+    "storage": "128GB/256GB",
+    "expansion": "Micro SD hasta 512 GB",
+    "pantalla": "6,43",
+    "camaraAtras": "108 megapíxeles",
+    "price": "420 USD"
+  },
+  {
+    "id": "2",
+    "name": "Xioami Redmi 12",
+    "image": "/assets/img/phoneRedmi/r12-transformed.png",
+    "ram": "4GB/8GB",
+    "storage": "128GB/256GB",
+    "expansion": "Micro SD hasta 1TB",
+    "pantalla": "6,79",
+    "camaraAtras": "50 megapíxeles",
+    "price": "200 USD"
+  },
+  {
+    "id": "3",
+    "name": "Xiaomi Redmi 9A",
+    "image": "/assets/img/phoneRedmi/r9a-transformed.png",
+    "ram": "2GB",
+    "storage": "32GB",
+    "expansion": "Micro SD hasta 512 GB",
+    "pantalla": "6,53",
+    "camaraAtras": "13 megapíxeles",
+    "price": "109 USD"
+  },
+  {
+    "id": "4",
+    "name": "Xiaomi Redmi 10C",
+    "image": "/assets/img/phoneRedmi/redmi10C.png",
+    "ram": "4GB",
+    "storage": "64GB/128GB",
+    "expansion": "Micro SD hasta 1TB",
+    "pantalla": "6,71",
+    "camaraAtras": "50 megapíxeles",
+    "price": "180 USD"
+  },
+  {
+    "id": "5",
+    "name": "Xiaomi Redmi 9T",
+    "image": "/assets/img/phoneRedmi/redmi9T.png",
+    "ram": "4GB",
+    "storage": "64GB/128GB",
+    "expansion": "Micro SD hasta 512 GB",
+    "pantalla": "6,53",
+    "camaraAtras": "48 megapíxeles",
+    "price": "120 USD"
+  },
+  {
+    "id": "6",
+    "name": "Xiaomi Redmi A2+",
+    "image": "/assets/img/phoneRedmi/redmiA2+.png",
+    "ram": "4GB",
+    "storage": "32GB/64GB",
+    "expansion": "Micro SD hasta 512 GB",
+    "pantalla": "6,52",
+    "camaraAtras": "8 megapíxeles (Dual)",
+    "price": "99 USD"
+  }
+]

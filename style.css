@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/assets/font/Lato-Regular.ttf);
+    font-display: fallback;
+  }
+ 
+  @font-face {
+    font-family: 'ClassicalDiary';
+    src: url(/assets/font/ClassicalDiary.ttf);
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: 'Oswald';
+    src: url(/assets/font/Oswald.ttf);
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url(/assets/font/Inter.ttf);
+    font-display: fallback;
+  }
+
+  .font-lato {
+    font-family: 'Lato' !important;
+  }
+ 
+  .font-diary {
+    font-family: 'ClassicalDiary' !important;
+  }
+
+  .font-oswald {
+    font-family: 'Oswald' !important;
+  }
+
+  .font-inter {
+    font-family: 'Inter' !important;
+  }
+
+
+
+
+  
+
+ .bg-colors-5 {
+    background: #575757;
+  }
+ 
+  .bg-colors-7 {
+    background: #ffab38;
+  }
+ 
+  .bg-colors-8 {
+    background: #b2b2b2;
+  }
+ .bg-colors-9{
+  background: #f7f7f7;
+ }
+
+ .bg-colors-10{
+  background-color: #F0F0F0;
+ }
+
+ .text-color-1{
+  color: #6B6B6B;
+ }
+
+
+ .invert-04{
+  filter: invert(0.4);
+ }
+ 
+ .w-66{
+    width: 66%;
+ }
+ .h-130vh{
+  height: 130vh;
+ }
+ 
+ 
+  body {
+    background-color: #f7f7f7;
+  }
+ 
+ 
+  #principalPhoto {
+    background-image: url(/assets/img/shanghai.jpg);
+  }
+ 
+ 
+  [tailwind="figure__absolute-h1"] {
+    text-shadow: 2px 2px 1px #444444;
+    color: #ffb329;
+    letter-spacing: 2px;
+  }
+ 
+  [tailwind="figure__absolute-h2"] {
+    text-shadow: 1px 1px 1px #444444;
+  }
+ 
+ 
+ 
+  #app {
+    width: 90%;
+  }
+ 
+  #card-script {
+    height: 60%;
+    background: #e7e7e7;
+    color: black;
+  }
+ 
+  .show-card-text {
+    transition: opacity 1s linear;
+    opacity: 1 !important;
+  }
+ 
+  .card-text-buy {
+    transition: background .6s linear;
+  }
+ 
+  .card-text-buy:hover {
+    background-color: white;
+  }
+
+
+  #bannerAd1{
+    background-image: url(/assets/img/phoneRedmi/banner-web-pc-watch-3.jpg);
+  }
+
+
+
+  /*  smart home */
+
+  .my-grid-1{
+    grid-template-columns: repeat(12,minmax(0,1fr));
+  }
+
+  .hover-box-shadow-1:hover{
+    box-shadow: 0 0.3125vw 0.72917vw 0 #00000014;
+  }
