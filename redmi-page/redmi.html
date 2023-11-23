@@ -13,27 +13,27 @@
 
 <body class="font-lato">
 
-  <header class="font-diary bg-neutral-800 p-6 text-white tracking-wider">
+  <header class="font-inter bg-neutral-800 p-4 text-white tracking-widest">
     <section class="flex justify-around">
 
         <article class="flex md:hidden">
             <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
         </article>
 
-        <article class="hidden md:flex justify-center items-center gap-2">
+        <article class="hidden md:flex justify-center items-center gap-2 text-base">
             <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
-            <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                 rel="noopener noreferrer" href="/index.html">Xiaomi</a>
-            <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                 rel="noopener noreferrer" href="/redmi-page/redmi.html">Redmi</a>
-            <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
-                rel="noopener noreferrer" href="/index.html">Smart Home</a>
-            <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
-                rel="noopener noreferrer" href="/index.html">
+            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                rel="noopener noreferrer" href="/smart-page/smart-home.html">Smart Home</a>
+            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                rel="noopener norefferrer" href="/index.html">
                 Life Style</a>
         </article>
 
-        <article class="hidden md:flex justify-center items-center gap-4 text-lg">
+        <article class="hidden md:flex justify-center items-center gap-4 text-base font-semibold">
             <button class="p-2 text-orange-500">Soporte</button>
             <button id="loginBtn"
                 class="bg-white text-orange-700 rounded py-3 px-4 transition-colors duration-700 hover:bg-orange-500 hover:text-white">Iniciar
@@ -56,18 +56,18 @@
                 </article>
             </section>
             <section class="row-span-5 h-full">
-                <article class="flex justify-center items-center gap-2 flex-col">
-                    <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                <article class="flex justify-center items-center gap-2 flex-col  text-base font-semissbold">
+                    <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                         rel="noopener noreferrer" href="/index.html">Xiaomi</a>
-                    <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                    <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                         rel="noopener noreferrer" href="/redmi-page/redmi.html">Redmi</a>
-                    <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
-                        rel="noopener noreferrer" href="/index.html">Smart Home</a>
-                    <a class="text-slate-100 text-lg cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                    <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                        rel="noopener noreferrer" href="/smart-page/smart-home.html">Smart Home</a>
+                    <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                         rel="noopener noreferrer" href="/index.html">
                         Life Style</a>
                 </article>
-                <article class="flex justify-center items-center gap-4 flex-col">
+                <article class="flex justify-center items-center gap-4 flex-col text-base font-semibold">
                     <button class="p-2 text-orange-500">Soporte</button>
                     <button id="loginBtn"
                         class="bg-white text-orange-700 rounded py-3 px-4 transition-colors duration-700 hover:bg-orange-500 hover:text-white">Iniciar
@@ -101,7 +101,7 @@
     <div id="app" class="flex flex-wrap justify-center pb-16 m-auto mb-12"></div>
 
 
-    <div class="h-130vh md:h-screen  w-full bg-black text-white text-center ">
+    <div class="h-full md:h-screen w-full bg-black text-white text-center ">
       <header class="h-full w-full">
         <figure class="w-full md:w-4/5 h-full m-auto">
           <header>
@@ -124,7 +124,7 @@
                 <p>Battery: 500mAh</p>
                 <p>Operating System: Android 12 (MIUI 14)</p>
               </article>
-              <article class="max-w-lg m-auto">
+              <article class="max-w-lg m-auto pb-8 md:pb-0">
                 <p class="text-xs text-slate-600 py-2">This is a showcase of Xiaomi phones, isnt real photos of the celphones, to see
                   real
                   photos in the official web of Xiaomi.</p>
@@ -138,7 +138,7 @@
     </div>
 
 
-    <section id="bannerAd1" class="w-full h-96 bg-cover bg-center">
+    <section id="bannerAd1" class="hidden md:block w-full h-96 bg-cover bg-center">
 
     </section>
 
@@ -156,11 +156,11 @@
           <h1 class="text-2xl font-semibold text-orange-500">Xiaomi Corporation</h1>
         </div>
   
-        <section class="flex flex-row justify-around items-center w-full h-full">
+        <section class="flex flex-col sm:flex-row justify-around items-center w-full h-full gap-12 sm:gap-0">
   
           <article class="flex flex-col justify-center items-center gap-4">
             <h2 class="text-orange-500 font-semibold text-2xl">Pages</h2>
-            <ul class="flex flex-col justify-center items-center text-color-1 gap-8">
+            <ul class="flex flex-row flex-wrap sm:flex-nowrap sm:flex-col justify-center items-center text-color-1 gap-8">
               <li class="text-lg"><a href="/index.html">Xiaomi</a></li>
               <li class="text-lg"><a href="/redmi-page/redmi.html">Redmi</a></li>
               <li class="text-lg"><a href="/smart-page/smart-home.html">Smart Home</a></li>
@@ -170,7 +170,7 @@
   
           <article class="flex flex-col justify-center items-center gap-4">
             <h2 class="text-orange-500 font-semibold text-2xl">Contact</h2>
-            <div class="flex flex-col justify-center items-center text-color-1 gap-12">
+            <div class="flex flex-row sm:flex-col justify-center items-center text-color-1 gap-12">
   
               <a href="" class="flex flex-row flex-wrap justify-between items-center gap-x-8">
                 <img class="inline-block w-6 h-6 invert-04 max-w-xs hover:scale-110 cursor-pointer"
@@ -219,6 +219,7 @@
       </div>
   
     </footer>
+  
 
   <!--   LOGIN POPUP    -->
   <section id="login" class="hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">

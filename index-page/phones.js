@@ -26,9 +26,8 @@ function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras,
 
       </div>
     </div>
-    <section id="buyPhonePop${id}" class="hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
-          <article
-            class="relative w-4/5 h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
+    <section id="buyPhonePop${id}" class="hidden flex w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+          <article class="relative w-full h-full sm:w-4/5 sm:h-4/5 m-auto bg-neutral-800 text-white sm:rounded-lg flex flex-col justify-center items-center">
             <h1 class="font-bold text-2xl">Comprar Celular</h1>
             <main id="mainPhonePop" class="">
 
