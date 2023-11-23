@@ -28,14 +28,20 @@ function closeMenu() {
 //              INICIAR SESION y REGISTRARSE 
 
 
-const loginBtn = document.getElementById("loginBtn");
+const loginBtns = document.querySelectorAll("#loginBtn");
 const login = document.getElementById("login");
 const btnCloseLogin = document.getElementById("closeLogin");
 
-try{
-  loginBtn.addEventListener('click', openLogin);
-}catch(error){
-  console.error("Error: "+error)
+
+for (let n = 0; n < 2; n++) {
+  try{
+    if(loginBtns[n]){
+      let a = n;
+      loginBtns[a].addEventListener('click', openLogin);
+    }
+  }catch(error){
+    console.error(error)
+  }
 }
 
 function openLogin() {
@@ -55,15 +61,21 @@ function closeLogin() {
   login.classList.toggle("flex");
 }
 
-const registerBtn = document.getElementById("registerBtn");
+const registerBtns = document.querySelectorAll("#registerBtn");
 const register = document.getElementById("register");
 const btnCloseRegister = document.getElementById("closeRegister");
 
-try{
-  registerBtn.addEventListener('click', openRegister);
-}catch(error){
-  console.error(error)
+for (let n = 0; n < 2; n++) {
+  try{
+    if(registerBtns[n]){
+      let a = n;
+      registerBtns[a].addEventListener('click', openRegister);
+    }
+  }catch(error){
+    console.error(error)
+  }
 }
+
 
 function openRegister() {
   register.classList.toggle("hidden");

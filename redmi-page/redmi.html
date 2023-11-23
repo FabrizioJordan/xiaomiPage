@@ -221,88 +221,86 @@
     </footer>
   
 
-  <!--   LOGIN POPUP    -->
-  <section id="login" class="hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
-    <article class="relative w-4/5 h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
-        <h1 class="font-bold text-2xl">Iniciar Sesión</h1>
-        <main class="">
+   <!--   LOGIN POPUP    -->
+   <section id="login" class="z-50 hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+    <article class="relative w-full h-full sm:w-4/5 sm:h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
+      <h1 class="font-bold text-2xl">Iniciar Sesión</h1>
+      <main class="">
+        <section class="p-4">
+          <form class="flex flex-col justify-center items-center" action="" method="post">
 
-            <section class="p-4">
-                <form action="" method="post">
-          
-                  
-                  <fieldset class="">
-                    <legend>Datos Personales</legend> 
-                    <label for="nameLogin">Nombre:</label> 
-                    <input id="nameLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
-                  </fieldset>
-          
-                  <fieldset>
-                    <label for="passLogin">Ingrese Contraseña:</label>
-                    <input id="passLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
-                  </fieldset>   
-                  <br>
-                  <button class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
-          
-                </form>
-          
-              </section>
+            <fieldset class="">
+              <legend>Datos Personales</legend>
+              <label for="nameLogin">Nombre:</label>
+              <input id="nameLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
+            </fieldset>
 
-        </main>
+            <fieldset>
+              <label for="passLogin">Ingrese Contraseña:</label>
+              <input id="passLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
+            </fieldset>
+            <br>
+            <button
+              class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
 
-        <div class="absolute top-12 right-12">
-            <img id="closeLogin" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
-        </div>
+          </form>
+        </section>
+      </main>
+
+      <div class="absolute top-12 right-12">
+        <img id="closeLogin" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
+      </div>
 
     </article>
   </section>
 
 
   <!--   REGISTER POPUP    -->
-  <section id="register" class="hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
-    <article class="relative w-4/5 h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
-        <h1 class="font-bold text-2xl">Registrarse</h1>
-        <main class="">
+  <section id="register" class="z-50 hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+    <article class="relative w-full h-full sm:w-4/5 sm:h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
+      <h1 class="font-bold text-2xl">Registrarse</h1>
+      <main class="">
 
-            <section class="p-4">
-                <form action="" method="post">
-          
-                  
-                    <fieldset class="">
-                        <legend>Datos Personales</legend>
-                        <label for="nameRegister">Nombre:</label> 
-                        <input class="text-black border border-black my-1 rounded pl-2" id="nameRegister" type="text">
-                        <br>
-                        <label for="surnameRegister">Apellido:</label> 
-                        <input class="text-black border border-black my-1 rounded pl-2" id="surnameRegister" type="text">
-                      </fieldset>
-              
-                      <fieldset>
-                        <legend>Contacto</legend> 
-                        <label for="phoneRegister">Telefono:</label> 
-                        <input class="text-black border border-black my-1 rounded pl-2" id="phoneRegister" type="text">
-                      </fieldset>
-              
-                      <fieldset>
-                        <legend>Indique el sexo</legend> 
-                        <label for="maleRegister">Masculino</label> 
-                        <input id="maleRegister" type="radio">
-                        <br>
-                        <label for="femaleRegister">Femenino</label> 
-                        <input id="femaleRegister" type="radio">
-                      </fieldset>
-                  <br>
-                  <button class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
-          
-                </form>
-          
-              </section>
+        <section class="p-4">
+          <form class="flex flex-col justify-center items-center" action="" method="post">
 
-        </main>
 
-        <div class="absolute top-12 right-12">
-            <img id="closeRegister" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
-        </div>
+            <fieldset class="">
+              <legend>Datos Personales</legend>
+              <label for="nameRegister">Nombre:</label>
+              <input class="text-black border border-black my-1 rounded pl-2" id="nameRegister" type="text">
+              <br>
+              <label for="surnameRegister">Apellido:</label>
+              <input class="text-black border border-black my-1 rounded pl-2" id="surnameRegister" type="text">
+            </fieldset>
+
+            <fieldset>
+              <legend>Contacto</legend>
+              <label for="phoneRegister">Telefono:</label>
+              <input class="text-black border border-black my-1 rounded pl-2" id="phoneRegister" type="text">
+            </fieldset>
+
+            <fieldset>
+              <legend>Indique el sexo</legend>
+              <label for="maleRegister">Masculino</label>
+              <input id="maleRegister" type="radio">
+              <br>
+              <label for="femaleRegister">Femenino</label>
+              <input id="femaleRegister" type="radio">
+            </fieldset>
+            <br>
+            <button
+              class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
+
+          </form>
+
+        </section>
+
+      </main>
+
+      <div class="absolute top-12 right-12">
+        <img id="closeRegister" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
+      </div>
 
     </article>
   </section>
