@@ -1,0 +1,148 @@
+[
+    {
+        "type": "wearable",
+        "list": "Redmi Buds 4 Active - Redmi Buds Essential - Redmi Smart Band 2 - Redmi Watch 3 Active - Redmi Watch 3 - Xiaomi Buds 3 Star Wars Edition - Xiaomi Buds 3T Pro - Xiaomi FlipBuds Pro - Xiaomi Smart Band 7 Khaki Strap - Xiaomi Smart Band 7 Neon Strap - Xiaomi Smart Band 7 NFC - Xiaomi Smart Band 7 Pro Leather-textured Silicone Strap - Xiaomi Smart Band 7 Pro Strap - Xiaomi Smart Band 7 Pro - Xiaomi Smart Band 7 Strap - Xiaomi Smart Band 8 Active Strap - Xiaomi Smart Band 8 Active - Xiaomi Smart Band 8 Straps - Xiaomi Smart Band 8 - Xiaomi Smart Kids Watch - Xiaomi Watch 2 Pro - Xiaomi Watch S1 Active - Xiaomi Watch Strap",
+        "products": [
+            {
+                "name": "Redmi Buds 4 Active",
+                "image": "/assets/img/life-style/Redmi Buds 4 Active.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-50-fire-tv/"
+            },
+            {
+                "name": "Redmi Buds Essential",
+                "image": "/assets/img/life-style/Redmi Buds Essential.jpg",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Redmi Smart Band 2",
+                "image": "/assets/img/life-style/Redmi Smart Band 2.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Redmi Watch 3 Active",
+                "image": "/assets/img/life-style/Redmi Watch 3 Active.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Redmi Watch 3",
+                "image": "/assets/img/life-style/Redmi Watch 3.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Buds 3 Star Wars Edition",
+                "image": "/assets/img/life-style/Xiaomi Buds 3 Star Wars Edition.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Buds 3T Pro",
+                "image": "/assets/img/life-style/Xiaomi Buds 3T Pro.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi FlipBuds Pro",
+                "image": "/assets/img/life-style/Xiaomi FlipBuds Pro.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 7 Khaki Strap",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 7 Khaki Strap.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 7 Neon Strap",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 7 Neon Strap.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 7 NFC",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 7 NFC.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 7 Pro Leather-textured Silicone Strap",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 7 Pro Leather-textured Silicone Strap.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 7 Pro Strap",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 7 Pro Strap.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 7 Pro",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 7 Pro.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 7 Strap",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 7 Strap.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 8 Active Strap",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 8 Active Strap.png",
+                "url": "https://www.mi.com/global/product/xiaomi-smart-band-8-active-strap/"
+            },
+            {
+                "name": "Xiaomi Smart Band 8 Active",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 8 Active.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Smart Band 8 Straps",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 8 Straps.png",
+                "url": "https://www.mi.com/global/product/xiaomi-smart-band-8-straps/"
+            },
+            {
+                "name": "Xiaomi Smart Band 8",
+                "image": "/assets/img/life-style/Xiaomi Smart Band 8.png",
+                "url": "https://www.mi.com/global/product/xiaomi-smart-band-8/"
+            },
+            {
+                "name": "Xiaomi Smart Kids Watch",
+                "image": "/assets/img/life-style/Xiaomi Smart Kids Watch.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Watch 2 Pro",
+                "image": "/assets/img/life-style/Xiaomi Watch 2 Pro.png",
+                "url": "https://www.mi.com/global/product/xiaomi-watch-2-pro/"
+            },
+            {
+                "name": "Xiaomi Watch S1 Active",
+                "image": "/assets/img/life-style/Xiaomi Watch S1 Active.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi Watch Strap",
+                "image": "/assets/img/life-style/Xiaomi Watch Strap.png",
+                "url": "https://www.mi.com/global/product/xiaomi-watch-strap/"
+            }
+        ]
+    },
+    {
+        "type": "smart device",
+        "products": [
+        {
+            "name": "Xiaomi Smart Camera C300",
+            "product-type": "Camera",
+            "image": ""
+        },
+        {
+            "name": "Mi Camera 2K Magnetic Mount",
+            "product-type": "Camera",
+            "image": ""
+        },
+        {
+            "name": "Mi 360° Home Security Camera 2K Pro",
+            "product-type": "Camera",
+            "image": ""
+        },
+        {
+            "name": "Mi Door and Window Sensor 2",
+            "product-type": "Sensor",
+            "image": ""
+        }
+        ]
+    }
+]
