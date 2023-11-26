@@ -2,9 +2,10 @@ fetch("/json/redmi.json")
   .then(response => response.json())
   .then(datas => iterPuts(datas));
 
-var cantidadPhones = 6;
+  //      ---->     { variable que se cambia en caso de poner mas o menos celuares  }
+var cantidadPhones = 12;
 
-function Card({ name, image, ram, storage, expansion, pantalla, camaraAtras, price }) {
+function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras, price }) {
   try {
     return `
     <div id="card-script" class="flex align-center justify-center flex-col border m-4 pt-4 w-64 leading-8 items-center rounded-lg text-black">
@@ -13,15 +14,49 @@ function Card({ name, image, ram, storage, expansion, pantalla, camaraAtras, pri
       </div>
       <div class="card-body w-full mt-4 pl-2 text-center">
         <h5 class="card-title font-bold font-sans my-2 text-center">${name}</h5>
-        <p id="card__Data" class="my-4 mx-auto p-1.5 text-sm cursor-pointer font-bold" id="show-data"> Ver especificaciones</p>
-        <p class=" opacity-0 hidden"> Ram: ${ram} </p>
-        <p class="card-text opacity-0 hidden"> Storage: ${storage} </p>
-        <p class="card-text opacity-0 hidden"> Pantalla: ${pantalla} </p>
-        <p class="card-text opacity-0 hidden"> Camara Trasera: ${camaraAtras} </p>
-        <p class="card-text opacity-0 hidden"> Expandible: ${expansion != "No Data" ? expansion : "Information Not Obtained"} </p>
-        <a id="card__Buy" class="bg-colors-7 w-66 transition-colors duration-500 flex justify-center my-4 mx-auto p-1.5 rounded-lg cursor-pointer hover:bg-white"> Comprar a ${price} </a>
+        <p id="card__Data${id}" class="my-4 mx-auto p-1.5 text-sm cursor-pointer font-bold" id="show-data"> Ver especificaciones</p>
+        <div id="div-texts" class="div__Text${id}">
+          <p class="card-text opacity-0 hidden"> Ram: ${ram} </p>
+          <p class="card-text opacity-0 hidden"> Storage: ${storage} </p>
+          <p class="card-text opacity-0 hidden"> Pantalla: ${pantalla}  </p>
+          <p class="card-text opacity-0 hidden"> Camara Trasera: ${camaraAtras} </p>
+          <p class="card-text opacity-0 hidden"> Expandible: ${expansion != "No Data" ? expansion : "Information Not Obtained"} </p>
+        </div>
+        <a id="card__Buy${id}" class="bg-colors-7 w-66 transition-colors duration-500 flex justify-center my-4 mx-auto p-1.5 rounded-lg cursor-pointer hover:bg-white"> Comprar a ${price} </a>
+
+        
+
+
       </div>
     </div>
+    <section id="buyPhonePop${id}" class="hidden flex w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+          <article class="relative w-full h-full sm:w-4/5 sm:h-4/5 m-auto bg-neutral-800 text-white sm:rounded-lg flex flex-col justify-center items-center">
+            <h1 class="font-bold text-2xl">Comprar Celular</h1>
+            <main id="mainPhonePop" class="">
+
+              <section class="p-4 flex flex-col items-center justify-center">
+                  <div class="card-body w-full mt-4 pl-2 text-center">
+                      <h5 class="card-title font-bold font-sans my-2 text-center">${name}</h5>
+                      <p class=""> Ram: ${ram} </p>
+                      <p class=""> Storage: ${storage} </p>
+                      <p class=""> Pantalla: ${pantalla} </p>
+                      <p class=""> Camara Trasera: ${camaraAtras} </p>
+                      <p class=""> Expandible: ${expansion != "No Data" ? expansion : "Information Not Obtained"} </p>
+                  </div>
+
+                  <br>
+                  <button
+                    class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
+              </section>
+
+            </main>
+
+            <div class="absolute top-12 right-12">
+              <img id="closeBuy${id}" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
+            </div>
+
+          </article>
+        </section>
   `;
   }
   catch (error) {
@@ -29,8 +64,7 @@ function Card({ name, image, ram, storage, expansion, pantalla, camaraAtras, pri
   }
 }
 
-
-
+// PUT PHONES : PONE LOS CELULARES
 function putPhones(phone) {
   try {
     document.getElementById("app").innerHTML += Card(phone);
@@ -39,7 +73,7 @@ function putPhones(phone) {
   }
 }
 
-
+// AQUI LE HACEMOS UN FOR A LOS PHONES PARA LLAMAR A LA FUNCION PUTPHONES DEPENDIENDO DE CUANTOS PHONES HAY
 function iterPuts(phones) {
   for (var i = 0; i < phones.length; i++) {
     putPhones(phones[i])
@@ -48,78 +82,72 @@ function iterPuts(phones) {
 
 
 
-let x = document.querySelectorAll('.card-text-data')
-x.forEach(i => i.addEventListener('click', onClick));
-
-
-
-function onClick() {
-  console.log("k");
-
-
-  let b = document.querySelectorAll('.card-text')
-
-  b.forEach(p => {
-    // p.classList.toggle('opacity-0');
-    p.classList.toggle('hidden');
-    setTimeout(function() {
-      p.classList.toggle('show-card-text');
-    }, 100);
-
-  });
-
-
-}
-
-
-
 
 document.addEventListener('DOMContentLoaded', function () {
 
 
-  // for (let o = 0; o < cardData.length; o++) {
-  //   cardData[o].addEventListener('click', showData)
-  // }
+
+  //        ACÁ QUIERO QUE SE ABRA LA INFO DE LOS CELULARES LUEGO DE SABER QUE EXISTAN Y DE QUE SE HAGA CLICK EN SU BOTON DE BUY
+
+  
+
+
+  //   ACA QUIERO HACER EL MENU BUY PHONE PARA QUE SE ABRA Y CIERRE
+
   document.addEventListener('click', function (event) {
-    if (event.target.matches('#card__Data')) { // verifica si al elemento con la id #card__Data le hicieron el evento en cuestion (click)
-      showData();
+    for (let p = 1; p < (cantidadPhones + 2); p++) {
+      if (event.target.matches('#card__Data'+p)) { // verifica si al elemento con la id #card__Data le hicieron el evento en cuestion (click)
+        showData(p);
+      }
     }
   });
 
-  function showData() {
-
-    let cardTexts = document.querySelectorAll('.card-text');
-
-    var cantidadShows = cantidadPhones * 4; 
-    for (let p = 0; p < cantidadShows; p++) {
+  function showData(p) {
+    
+  // agarro todos los text a mostrar
+    let cardTexts = document.querySelectorAll('.div__Text'+p+'> .card-text');
+    for (let p = 1; p < cardTexts.length; p++) {
       cardTexts[p].classList.toggle('hidden');
       cardTexts[p].classList.toggle('show-card-text');
     }
-
   }
 
 
 
 
-  
+  quantityPhones = document.querySelectorAll("#card-script");
+
+  //   ACA QUIERO HACER EL MENU BUY PHONE PARA QUE SE ABRA Y CIERRE
+
+  document.addEventListener('click', function (event) {
+    for (let p = 1; p < (cantidadPhones + 2); p++) {
+      if (event.target.matches('#card__Buy'+p)) { // verifica si al elemento con la id #apertado le hicieron el evento en cuestion (click)
+        showBuy(p);
+      }
+      if (event.target.matches('#closeBuy'+p)) { // verifica si quieren cerrar el PopUp de comprar phones
+        try{
+          document.addEventListener('click', closeBuyPop(p));
+        }catch(error){
+          console.error("Error: "+error)
+        }
+      }
+    }
+      
+  });
+
+  function showBuy(n) {
+    let phonePopUp = document.getElementById("buyPhonePop"+n)
+    phonePopUp.classList.toggle("hidden");
+  }
+
+  function closeBuyPop(num) {
+    document.getElementById("buyPhonePop"+num).classList.toggle("hidden");
+    document.getElementById("buyPhonePop"+num).classList.toggle("flex");
+  }
+
+
+
 });
 
 
-function buyPhones({ name, image, ram, storage, expansion, pantalla, camaraAtras, price }) {
-  try {
-    return `
-    <div class="card-body w-full mt-4 pl-2 text-center">
-        <h5 class="card-title font-bold font-sans my-2 text-center">${name}</h5>
-        <p class="card-text "> Ram: ${ram} </p>
-        <p class="card-text "> Storage: ${storage} </p>
-        <p class="card-text "> Pantalla: ${pantalla} </p>
-        <p class="card-text "> Camara Trasera: ${camaraAtras} </p>
-        <p class="card-text "> Expandible: ${expansion != "No Data" ? expansion : "Information Not Obtained"} </p>
-      </div>
-    
-  `;
-  }
-  catch (error) {
-    console.error("Error al retornar en la funcion buyPhones, error ->  " + error)
-  }
-}
+

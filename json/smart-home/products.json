@@ -1,22 +1,83 @@
 [
     {
         "type": "tv",
+        "list": "Xiaomi TV F2 50 - Xiaomi TV F2 43 - Xiaomi TV P1E 55 - Xiaomi TV P1E 43 - Xiaomi TV Max 86 - Xiaomi TV Q1E 55 - Xiaomi TV F2 32” Fire TV - Xiaomi TV A Pro 32 - Xiaomi TV A Pro 43 - Xiaomi TV A Pro 50 - Xiaomi TV A Pro 55 - Xiaomi TV A 32 - Xiaomi TV A 55 - Xiaomi TV A 43 FHD - Xiaomi TV Q2 65",
         "products": [
-        {
-            "name": "Xiaomi TV A FHD",
-            "pulgadas": 43,
-            "image": "/assets/img/smart-home/tv/"
-        },
-        {
-            "name": "Xiaomi TV A Pro",
-            "pulgadas": 55,
-            "image": "/assets/img/smart-home/tv/"
-        },
-        {
-            "name": "Xiaomi TV Q2",
-            "pulgadas": 65,
-            "image": "/assets/img/smart-home/tv/"
-        }
+            {
+                "name": "Xiaomi TV F2 50",
+                "image": "/assets/img/TV&media/Xiaomi TV F2 50.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-50-fire-tv/"
+            },
+            {
+                "name": "Xiaomi TV F2 43",
+                "image": "/assets/img/TV&media/Xiaomi TV F2 43.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-43-fire-tv/"
+            },
+            {
+                "name": "Xiaomi TV P1E 55",
+                "image": "/assets/img/TV&media/Xiaomi TV P1E 55.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-p1e-55/"
+            },
+            {
+                "name": "Xiaomi TV P1E 43",
+                "image": "/assets/img/TV&media/Xiaomi TV P1E 43.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-p1e-43/"
+            },
+            {
+                "name": "Xiaomi TV Max 86",
+                "image": "/assets/img/TV&media/Xiaomi TV Max 86.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-max-86/"
+            },
+            {
+                "name": "Xiaomi TV Q1E 55",
+                "image": "/assets/img/TV&media/Xiaomi TV Q1E 55.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-q1e-55/"
+            },
+            {
+                "name": "Xiaomi TV F2 32” Fire TV",
+                "image": "/assets/img/TV&media/Xiaomi TV F2 32” Fire TV.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-f2-32-fire-tv/"
+            },
+            {
+                "name": "Xiaomi TV A Pro 32",
+                "image": "/assets/img/TV&media/Xiaomi TV A Pro 32.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-a-pro-32/"
+            },
+            {
+                "name": "Xiaomi TV A Pro 43",
+                "image": "/assets/img/TV&media/Xiaomi TV A Pro 43.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-a-pro-43/"
+            },
+            {
+                "name": "Xiaomi TV A Pro 50",
+                "image": "/assets/img/TV&media/Xiaomi TV A Pro 50.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-a-pro-50/"
+            },
+            {
+                "name": "Xiaomi TV A Pro 55",
+                "image": "/assets/img/TV&media/Xiaomi TV A Pro 55.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-a-pro-55/"
+            },
+            {
+                "name": "Xiaomi TV A 32",
+                "image": "/assets/img/TV&media/Xiaomi TV A 32.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-a-32/"
+            },
+            {
+                "name": "Xiaomi TV A 55",
+                "image": "/assets/img/TV&media/Xiaomi TV A 55.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-a-55/"
+            },
+            {
+                "name": "Xiaomi TV A 43 FHD",
+                "image": "/assets/img/TV&media/Xiaomi TV A 43 FHD.png",
+                "url": "https://www.mi.com/global/product/xiaomi-tv-a-43-fhd/"
+            },
+            {
+                "name": "Xiaomi TV Q2 65",
+                "image": "/assets/img/TV&media/Xiaomi TV Q2 65.png",
+                "url": ""
+            }
         ]
     },
     {
@@ -25,22 +86,22 @@
         {
             "name": "Xiaomi Smart Camera C300",
             "product-type": "Camera",
-            "image": "/assets/img/smart-home/smart-device/"
+            "image": ""
         },
         {
             "name": "Mi Camera 2K Magnetic Mount",
             "product-type": "Camera",
-            "image": "/assets/img/smart-home/smart-device/"
+            "image": ""
         },
         {
             "name": "Mi 360° Home Security Camera 2K Pro",
             "product-type": "Camera",
-            "image": "/assets/img/smart-home/smart-device/"
+            "image": ""
         },
         {
             "name": "Mi Door and Window Sensor 2",
             "product-type": "Sensor",
-            "image": "/assets/img/smart-home/smart-device/"
+            "image": ""
         }
         ]
     }
