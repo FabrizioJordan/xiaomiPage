@@ -13,36 +13,35 @@
 
 <body class="font-lato">
 
-  <header class="font-inter bg-neutral-800 p-4 text-white tracking-widest">
-    <section class="flex justify-around">
+  <header class="font-inter bg-white tracking-widest">
+    <section class="flex justify-around py-3 px-2">
 
         <article class="flex md:hidden">
             <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
         </article>
 
-        <article class="hidden md:flex justify-center items-center gap-2 text-base">
+        <article class="hidden md:flex justify-center items-center gap-2 text-base text-black font-medium">
             <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
-            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+            <a class="cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                 rel="noopener noreferrer" href="/index.html">Xiaomi</a>
-            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+            <a class="cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                 rel="noopener noreferrer" href="/redmi-page/redmi.html">Redmi</a>
-            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+            <a class="cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                 rel="noopener noreferrer" href="/smart-page/smart-home.html">Smart Home</a>
-            <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
-                rel="noopener norefferrer" href="/index.html">
-                Life Style</a>
+            <a class="cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
+                rel="noopener norefferrer" href="/life-style/life-style.html">Life Style</a>
         </article>
 
         <article class="hidden md:flex justify-center items-center gap-4 text-base font-semibold">
             <button class="p-2 text-orange-500">Soporte</button>
             <button id="loginBtn"
-                class="bg-white text-orange-700 rounded py-3 px-4 transition-colors duration-700 hover:bg-orange-500 hover:text-white">Iniciar
+                class=" bg-gray-200 text-orange-700 rounded py-3 px-4 transition-colors duration-700 hover:bg-orange-500 hover:text-white">Iniciar
                 Sesión</button>
             <button id="registerBtn"
                 class="bg-orange-300 text-black rounded py-3 px-4 transition-colors duration-700 border border-transparent hover:border-white hover:bg-black hover:text-white">Registrarse</button>
         </article>
 
-        <article id="menu__Art" class="md:hidden flex gap-2 justify-center items-center">
+        <article id="menu__Art" class="md:hidden flex gap-2 justify-center items-center font-semibold">
             <h3>Menú</h3>
             <img class="invert w-8" src="/assets/svg/list.svg" alt="menu icon">
         </article>
@@ -56,7 +55,7 @@
                 </article>
             </section>
             <section class="row-span-5 h-full">
-                <article class="flex justify-center items-center gap-2 flex-col  text-base font-semissbold">
+                <article class="flex justify-center items-center gap-2 flex-col text-base font-medium">
                     <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                         rel="noopener noreferrer" href="/index.html">Xiaomi</a>
                     <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
@@ -64,7 +63,7 @@
                     <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                         rel="noopener noreferrer" href="/smart-page/smart-home.html">Smart Home</a>
                     <a class="text-slate-100 cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
-                        rel="noopener noreferrer" href="/index.html">
+                        rel="noopener noreferrer" href="/life-style/life-style.html">
                         Life Style</a>
                 </article>
                 <article class="flex justify-center items-center gap-4 flex-col text-base font-semibold">
@@ -79,7 +78,7 @@
         </section>
 
     </section>
-</header>
+  </header>
 
 
   <main class="">
@@ -98,7 +97,7 @@
     </div>
 
     <h4 class="text-center text-4xl mb-8">Redmi Series</h4>
-    <div id="app" class="flex flex-wrap justify-center pb-16 m-auto mb-12"></div>
+    <div id="app" class="flex flex-wrap justify-center items-center pb-16 m-auto mb-12"></div>
     
 
     <!--  SHOWCASE PHONE  -->
@@ -223,7 +222,7 @@
   
 
    <!--   LOGIN POPUP    -->
-   <section id="login" class="z-50 hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+   <section id="login" class="z-50 hidden flex w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
     <article class="relative w-full h-full sm:w-4/5 sm:h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
       <h1 class="font-bold text-2xl">Iniciar Sesión</h1>
       <main class="">
@@ -257,7 +256,7 @@
 
 
   <!--   REGISTER POPUP    -->
-  <section id="register" class="z-50 hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+  <section id="register" class="z-50 hidden flex w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
     <article class="relative w-full h-full sm:w-4/5 sm:h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
       <h1 class="font-bold text-2xl">Registrarse</h1>
       <main class="">
@@ -307,33 +306,7 @@
   </section>
 
 
-  <!--   BUY PHONE POPUP    -->
-  <section id="buyPhonePop" class="hidden w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
-    <article class="relative w-4/5 h-4/5 m-auto bg-neutral-800 text-white rounded-lg flex flex-col justify-center items-center">
-        <h1 class="font-bold text-2xl">Comprar Celular</h1>
-        <main id="mainPhonePop" class="">
-
-            <section class="p-4">
-                <form action="" method="post">
-          
-                  
-
-                  <br>
-                  <button class="border border-black p-2 py-0 bg-teal-600 transition-colors rounded hover:bg-black">Enviar</button>
-          
-                </form>
-          
-              </section>
-
-        </main>
-
-        <div class="absolute top-12 right-12">
-            <img id="closeBuy" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
-        </div>
-
-    </article>
-  </section>
-
+  
 
 
 </body>

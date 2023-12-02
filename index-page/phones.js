@@ -8,7 +8,7 @@ var cantidadPhones = 6;
 function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras, price }) {
   try {
     return `
-    <div id="card-script" class="flex align-center justify-center flex-col border m-4 pt-4 w-64 leading-8 items-center rounded-lg text-black">
+    <div id="card-script" class="flex align-center justify-center flex-col border m-2 pt-4 w-64 leading-8 items-center rounded-lg text-black">
       <div>
         <img class="card-img-top object-contain w-40 h-32 m-auto" src="${image}" alt="Card image cap">  
       </div>
@@ -22,7 +22,8 @@ function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras,
           <p class="card-text opacity-0 hidden"> Camara Trasera: ${camaraAtras} </p>
           <p class="card-text opacity-0 hidden"> Expandible: ${expansion != "No Data" ? expansion : "Information Not Obtained"} </p>
         </div>
-        <a id="card__Buy${id}" class="bg-colors-7 w-66 transition-colors duration-500 flex justify-center my-4 mx-auto p-1.5 rounded-lg cursor-pointer hover:bg-white"> Comprar a ${price} </a>
+
+        <a id="card__Buy${id}" class="bg-colors-7 w-66 transition-colors duration-500 flex justify-center my-4 mx-auto p-1.5 rounded-lg cursor-pointer hover:bg-gray-400"> Comprar a ${price} </a>
 
         
 
@@ -136,6 +137,28 @@ document.addEventListener('DOMContentLoaded', function () {
   function showBuy(n) {
     let phonePopUp = document.getElementById("buyPhonePop"+n)
     phonePopUp.classList.toggle("hidden");
+
+    try{
+  
+      document.addEventListener('keydown', function(event) {
+      let key = event.key;
+      switch (key) {
+        case 'Escape': // se presiona la tecla escape para salir de los PopUp
+            for (let p = 1; p < (cantidadPhones + 2); p++) {
+              if(document.getElementById("buyPhonePop"+p)){
+                phonePopUp[p] = document.getElementById("buyPhonePop"+p)
+                phonePopUp[p].classList.add("hidden")
+              }
+            }
+          break;
+        default:
+          break;
+      }
+    })
+    
+    }catch(error){
+      console.error(error)
+    }
   }
 
   function closeBuyPop(num) {

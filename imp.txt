@@ -1,4 +1,5 @@
 npx tailwindcss -i .style.css -o .\dist\output.css --watch
+npx tailwindcss -i style.css -o ./dist/output.css --watch
 
 npx tailwindcss -i .\tablas\tablasSeis.css -o .\dist\tablasSeis.css --watch
 

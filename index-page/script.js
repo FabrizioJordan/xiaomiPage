@@ -3,6 +3,8 @@
 
 //                   MENU
 
+
+
 const menuBtn = document.getElementById("menu__Art");
 const menu = document.getElementById("menu");
 const btnCloseMenu = document.getElementById("btnCloseMenu");
@@ -101,23 +103,17 @@ try{
   document.addEventListener('keydown', function(event) {
   let key = event.key;
   switch (key) {
-    case 'Escape':
-      if(!register.classList.contains("hidden")){
+    case 'Escape': // se presiona la tecla escape para salir de los PopUp
+      if(!register.classList.contains("hidden")){ // verifico si register no contiene "hidden"
         register.classList.toggle("hidden");
-        register.classList.toggle("flex");  
       }
-      if(!login.classList.contains("hidden")){
+      if(!login.classList.contains("hidden")){ // verifico si login no contiene "hidden"
         login.classList.toggle("hidden");
-        login.classList.toggle("flex");  
-      }
-      for (let n = 1; n < 4; n++) {
-        let phonePopUp = document.getElementById("buyPhonePop"+n)
-        if(!phonePopUp.classList.contains("hidden")){
-          phonePopUp.classList.toggle("hidden");
-          phonePopUp.classList.toggle("flex");  
-        }
       }
       
+      // if(document.getElementById("mainPhonePop")){
+        
+      // }
       break;
     default:
       // console.log('Otra tecla fue presionada: ' + key);

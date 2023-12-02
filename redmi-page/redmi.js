@@ -2,6 +2,8 @@ fetch("/json/redmi.json")
   .then(response => response.json())
   .then(datas => iterPuts(datas));
 
+
+var buyPhonePop = false;
   //      ---->     { variable que se cambia en caso de poner mas o menos celuares  }
 var cantidadPhones = 12;
 
@@ -29,7 +31,7 @@ function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras,
 
       </div>
     </div>
-    <section id="buyPhonePop${id}" class="hidden flex w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 ">
+    <section id="buyPhonePop${id}" class="hidden flex w-full h-screen top-0 fixed justify-center items-center backdrop-brightness-50 z-20">
           <article class="relative w-full h-full sm:w-4/5 sm:h-4/5 m-auto bg-neutral-800 text-white sm:rounded-lg flex flex-col justify-center items-center">
             <h1 class="font-bold text-2xl">Comprar Celular</h1>
             <main id="mainPhonePop" class="">
@@ -136,17 +138,41 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   function showBuy(n) {
-    let phonePopUp = document.getElementById("buyPhonePop"+n)
+    var phonePopUp = document.getElementById("buyPhonePop"+n)
     phonePopUp.classList.toggle("hidden");
+    buyPhonePop = true;
+
+    try{
+  
+      document.addEventListener('keydown', function(event) {
+      let key = event.key;
+      switch (key) {
+        case 'Escape': // se presiona la tecla escape para salir de los PopUp
+            for (let p = 1; p < (cantidadPhones + 2); p++) {
+              if(document.getElementById("buyPhonePop"+p)){
+                phonePopUp[p] = document.getElementById("buyPhonePop"+p)
+                phonePopUp[p].classList.add("hidden")
+              }
+            }
+          break;
+        default:
+          break;
+      }
+    })
+    
+    }catch(error){
+      console.error(error)
+    }
   }
 
   function closeBuyPop(num) {
     document.getElementById("buyPhonePop"+num).classList.toggle("hidden");
     document.getElementById("buyPhonePop"+num).classList.toggle("flex");
+    buyPhonePop = false;
   }
 
-
-
+  
+  
 });
 
 
