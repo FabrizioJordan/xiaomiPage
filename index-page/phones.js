@@ -10,7 +10,7 @@ function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras,
     return `
     <div id="card-script" class="flex align-center justify-center flex-col border m-2 pt-4 w-64 leading-8 items-center rounded-lg text-black">
       <div>
-        <img class="card-img-top object-contain w-40 h-32 m-auto" src="${image}" alt="Card image cap">  
+        <img class="card-img-top object-contain w-40 h-32 m-auto" src="${image}" alt="imagen sobre ${name}">  
       </div>
       <div class="card-body w-full mt-4 pl-2 text-center">
         <h5 class="card-title font-bold font-sans my-2 text-center">${name}</h5>
@@ -163,8 +163,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function closeBuyPop(num) {
     document.getElementById("buyPhonePop"+num).classList.toggle("hidden");
-    document.getElementById("buyPhonePop"+num).classList.toggle("flex");
   }
 
 });
 
+
+
+// ABRO LOADER
+const loaderDad = document.getElementById("loaderDad")
+const loaderChild = document.getElementById("loader");
+
+window.onload = cerrarLoader();
+// window.addEventListener('DOMContentLoaded', cerrarLoader())
+
+function cerrarLoader() {
+  loaderDad.classList.add("hidden");
+  loaderChild.classList.add("hidden");
+  loaderChild.style.animation = "none";
+}

@@ -141,3 +141,80 @@
   .hover-box-shadow-1:hover{
     box-shadow: 0 0.3125vw 0.72917vw 0 #00000014;
   }
+
+
+
+
+
+
+
+
+
+#loader {
+  animation: loader1 1s linear infinite;
+}
+
+@keyframes loader1 {
+  0% {
+    background: white;
+    width: 1em;
+    height: 1em;
+    opacity: 1;
+  }
+
+  25% {
+    width: 2em;
+    height: 2em;
+    opacity: .7;
+  }
+
+  50% {
+    background: #a6a6a6;
+    width: 2.6em;
+    height: 2.6em;
+    opacity: .5;
+  }
+
+  75% {
+    width: 3em;
+    height: 3em;
+    opacity: .3;
+  }
+
+  100% {
+    width: 4em;
+    height: 4em;
+    background: black;
+    opacity: .1;
+  }
+}
+
+#toTextArrow {
+  animation: bounce2 1.8s linear infinite;
+}
+
+@keyframes bounce2 {
+  0% {
+    transform: translateY(0px);
+  }
+
+  30% {
+
+    transform: translateY(-8px);
+  }
+
+  70% {
+
+    transform: translateY(8px);
+  }
+
+  100% {
+
+    transform: translateY(0px);
+  }
+}
+
+
+.childrenRotated {
+  transform: rotate(45deg);
+}

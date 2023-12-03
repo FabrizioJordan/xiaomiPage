@@ -48,7 +48,6 @@ for (let n = 0; n < 2; n++) {
 
 function openLogin() {
   login.classList.toggle("hidden");
-  login.classList.toggle("flex");
 }
 
 try{
@@ -60,7 +59,6 @@ try{
 
 function closeLogin() {
   login.classList.toggle("hidden");
-  login.classList.toggle("flex");
 }
 
 const registerBtns = document.querySelectorAll("#registerBtn");
@@ -81,7 +79,6 @@ for (let n = 0; n < 2; n++) {
 
 function openRegister() {
   register.classList.toggle("hidden");
-  register.classList.toggle("flex");
 }
 
 try{
@@ -92,7 +89,6 @@ try{
 
 function closeRegister() {
   register.classList.toggle("hidden");
-  register.classList.toggle("flex");
 }
 
 
