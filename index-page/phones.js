@@ -1,20 +1,4 @@
 
-// ABRO LOADER
-const loaderDad = document.getElementById("loaderDad")
-const loaderChild = document.getElementById("loader");
-
-window.onload = cerrarLoader();
-// window.addEventListener('DOMContentLoaded', cerrarLoader())
-
-function cerrarLoader() {
-  loaderDad.classList.add("hidden");
-  loaderChild.classList.add("hidden");
-  loaderChild.style.animation = "none";
-}
-
-
-
-
 
 // fetcheando el json para agarrar los datos
 

@@ -570,6 +570,10 @@ video {
   z-index: 50;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .col-span-12 {
   grid-column: span 12 / span 12;
 }
@@ -670,8 +674,8 @@ video {
   height: 8rem;
 }
 
-.h-4\/5 {
-  height: 80%;
+.h-4 {
+  height: 1rem;
 }
 
 .h-6 {
@@ -698,10 +702,6 @@ video {
   height: 100vh;
 }
 
-.max-h-96 {
-  max-height: 24rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -710,8 +710,8 @@ video {
   width: 6rem;
 }
 
-.w-4\/5 {
-  width: 80%;
+.w-4 {
+  width: 1rem;
 }
 
 .w-40 {
@@ -732,6 +732,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-lg {
@@ -839,10 +843,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -889,11 +889,6 @@ video {
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
 .bg-teal-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
@@ -907,6 +902,11 @@ video {
 .bg-zinc-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+}
+
+.bg-amber-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 243 199 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -1158,6 +1158,10 @@ video {
   opacity: 0;
 }
 
+.opacity-100 {
+  opacity: 1;
+}
+
 .invert {
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1334,6 +1338,71 @@ body {
 
 .hover-box-shadow-1:hover{
   box-shadow: 0 0.3125vw 0.72917vw 0 #00000014;
+}
+
+#loader {
+  animation: loader1 1s linear infinite;
+}
+
+@keyframes loader1 {
+  0% {
+    background: white;
+    width: 1em;
+    height: 1em;
+    opacity: 1;
+  }
+
+  25% {
+    width: 2em;
+    height: 2em;
+    opacity: .7;
+  }
+
+  50% {
+    background: #a6a6a6;
+    width: 2.6em;
+    height: 2.6em;
+    opacity: .5;
+  }
+
+  75% {
+    width: 3em;
+    height: 3em;
+    opacity: .3;
+  }
+
+  100% {
+    width: 4em;
+    height: 4em;
+    background: black;
+    opacity: .1;
+  }
+}
+
+#toTextArrow {
+  animation: bounce2 1.8s linear infinite;
+}
+
+@keyframes bounce2 {
+  0% {
+    transform: translateY(0px);
+  }
+
+  30% {
+    transform: translateY(-8px);
+  }
+
+  70% {
+    transform: translateY(8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.childrenRotated {
+  transform: rotate(45deg);
 }
 
 .hover\:rotate-3:hover {

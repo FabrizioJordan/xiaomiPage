@@ -84,24 +84,59 @@
         "type": "smart device",
         "products": [
         {
+            "name": "Xiaomi Outdoor Camera CW 400",
+            "image": "https://i02.appmifile.com/537_operatorx_operatorx_opx/20/10/2023/a156f0f2a34b0f3d207a4c28e05650e4.png",
+            "url": "https://m.buy.mi.com/global/item/3223706266/"
+        },
+        {
+            "name": "Xiaomi Smart door lock NFC Card",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1673923841.7781291.png",
+            "url": "https://m.buy.mi.com/global/item/3223702491/"
+        },
+        {
+            "name": "Xiaomi Automatic Smart Door Lock",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1673923636.67345556.png",
+            "url": "https://m.buy.mi.com/global/item/3223702490/"
+        },
+        {
+            "name": "Xiaomi Outdoor Camera AW300",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1673868028.34594072.png",
+            "url": "https://m.buy.mi.com/global/item/3223702488/"
+        },
+        {
+            "name": "Xiaomi Smart Speaker Lite",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1673833596.47662450.png",
+            "url": "https://m.buy.mi.com/global/item/3223702469/"
+        },
+        {
+            "name": "Xiaomi Smart Camera C400",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1672039614.53085652.png",
+            "url": "https://m.buy.mi.com/global/item/3223701339/"
+        },
+        {
+            "name": "Mi Smart Speaker",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1671746657.2057754.png",
+            "url": "https://m.buy.mi.com/global/item/3223700940/"
+        },
+        {
             "name": "Xiaomi Smart Camera C300",
-            "product-type": "Camera",
-            "image": ""
-        },
-        {
-            "name": "Mi Camera 2K Magnetic Mount",
-            "product-type": "Camera",
-            "image": ""
-        },
-        {
-            "name": "Mi 360° Home Security Camera 2K Pro",
-            "product-type": "Camera",
-            "image": ""
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666876436.0261622.png",
+            "url": "https://m.buy.mi.com/global/item/3223700580/"
         },
         {
             "name": "Mi Door and Window Sensor 2",
-            "product-type": "Sensor",
-            "image": ""
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666842357.79238975.png",
+            "url": "https://m.buy.mi.com/global/item/3223700415/"
+        },
+        {
+            "name": "Mi Camera 2K Magnetic Mount",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666876940.34896683.png",
+            "url": "https://m.buy.mi.com/global/item/3223700568/"
+        },
+        {
+            "name": "Mi 360° Home Security Camera 2K Pro",
+            "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666845058.44989709.jpg",
+            "url": "https://m.buy.mi.com/global/item/3223700373/"
         }
         ]
     }
