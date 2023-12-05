@@ -12,7 +12,7 @@ function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras,
     return `
     <div id="card-script" class="flex align-center justify-center flex-col border m-4 pt-4 w-64 leading-8 items-center rounded-lg text-black">
       <div>
-        <img class="card-img-top object-contain w-40 h-32 m-auto" src="${image}" alt="Card image cap">  
+        <img class="card-img-top object-contain w-40 h-32 m-auto" src="${image}" alt="Card image cap" loading="lazy">  
       </div>
       <div class="card-body w-full mt-4 pl-2 text-center">
         <h5 class="card-title font-bold font-sans my-2 text-center">${name}</h5>
@@ -54,7 +54,7 @@ function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras,
             </main>
 
             <div class="absolute top-12 right-12">
-              <img id="closeBuy${id}" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="">
+              <img id="closeBuy${id}" class="w-8 h-8 invert" src="/assets/svg/x.svg" alt="X svg for close" loading="lazy">
             </div>
 
           </article>

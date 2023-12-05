@@ -18,7 +18,7 @@ function fetchear(num, type){
                 <h1 class="text-lg sm:text-xl font-semibold">${name}</h1>
                 <a href="${url}" class=" border border-black sm:border-transparent text-base sm:text-sm tracking-wider sm:tracking-widest font-semibold sm:text-white sm:bg-black p-4 rounded-lg transition-colors hover:underline sm:hover:no-underline sm:hover:bg-zinc-500">Leer más<span class="icon-[material-symbols--arrow-right-rounded]"></span></a>
             </div>
-            <img src="${image}" alt="Image of ${name}">
+            <img loading="lazy" src="${image}" alt="Image of ${name}">
         </article>  
   `;
   }
