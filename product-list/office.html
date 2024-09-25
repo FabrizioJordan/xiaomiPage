@@ -16,11 +16,11 @@
   <header class="font-inter bg-white tracking-widest">
     <section class="flex justify-around py-3 px-2">
 
-        <article class="flex md:hidden">
+        <article class="flex lg:hidden">
             <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
         </article>
 
-        <article class="hidden md:flex justify-center items-center gap-2 text-base text-black font-medium">
+        <article class="hidden lg:flex justify-center items-center gap-2 text-base text-black font-medium">
             <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
             <a class="cursor-pointer p-2 pl-1.5 pr-1.5 transition hover:rotate-3"
                 rel="noopener noreferrer" href="/index.html">Xiaomi</a>
@@ -32,7 +32,7 @@
                 rel="noopener norefferrer" href="/life-style/life-style.html">Life Style</a>
         </article>
 
-        <article class="hidden md:flex justify-center items-center gap-4 text-base font-semibold">
+        <article class="hidden lg:flex justify-center items-center gap-4 text-base font-semibold">
             <button class="p-2 text-orange-500">Soporte</button>
             <button id="loginBtn"
                 class=" bg-gray-200 text-orange-700 rounded py-3 px-4 transition-colors duration-700 hover:bg-orange-500 hover:text-white">Iniciar
@@ -41,17 +41,16 @@
                 class="bg-orange-300 text-black rounded py-3 px-4 transition-colors duration-700 border border-transparent hover:border-white hover:bg-black hover:text-white">Registrarse</button>
         </article>
 
-        <article id="menu__Art" class="md:hidden flex gap-2 justify-center items-center font-semibold">
+        <article id="menu__Art" class="lg:hidden flex gap-2 justify-center items-center font-semibold">
             <h3>Menú</h3>
-            <img class="invert w-8" src="/assets/svg/list.svg" alt="menu icon">
         </article>
 
         <section id="menu"
             class="hidden fixed top-0 pt-8 bg-colors-5 h-screen w-full justify-center items-center z-10 align-center grid-cols-1 grid-rows-6 ease-in">
             <section class="w-full h-full">
                 <article class="flex justify-around items-center">
-                    <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="#">
-                    <img id="btnCloseMenu" class="w-10 invert" src="/assets/svg/x.svg" alt="">
+                    <img class="w-10" src="/assets/svg/Xiaomi_logo.svg" alt="imagen vectorial sobre el logo de xiaomi" loading="lazy">
+                    <img id="btnCloseMenu" class="w-10 invert" src="/assets/svg/x.svg" alt="imagen vectorial de X para cerrar el menú" loading="lazy">
                 </article>
             </section>
             <section class="row-span-5 h-full">
@@ -116,12 +115,12 @@
             <fieldset class="">
               <legend>Datos Personales</legend>
               <label for="nameLogin">Nombre:</label>
-              <input id="nameLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
+              <input id="nameLogin" class="ml-4 text-black border border-black my-1 rounded pl-2" type="text">
             </fieldset>
 
             <fieldset>
-              <label for="passLogin">Ingrese Contraseña:</label>
-              <input id="passLogin" class="text-black border border-black my-1 rounded pl-2" type="text">
+              <label for="passLogin">Contraseña:</label>
+              <input id="passLogin" class="ml-4 text-black border border-black my-1 rounded pl-2" type="text">
             </fieldset>
             <br>
             <button

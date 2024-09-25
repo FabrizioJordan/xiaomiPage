@@ -4,18 +4,8 @@
    font-display: fallback;
  }
 
- @font-face {
-   font-family: 'ClassicalDiary';
-   src: url(/assets/fonts/ClassicalDiary.ttf);
-   font-display: fallback;
- }
-
  .font-lato {
    font-family: 'Lato' !important;
- }
-
- .font-diary {
-   font-family: 'ClassicalDiary' !important;
  }
 
  .bg-colors-5 {

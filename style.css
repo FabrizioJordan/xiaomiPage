@@ -9,18 +9,6 @@
   }
  
   @font-face {
-    font-family: 'ClassicalDiary';
-    src: url(/assets/font/ClassicalDiary.ttf);
-    font-display: fallback;
-  }
-
-  @font-face {
-    font-family: 'Oswald';
-    src: url(/assets/font/Oswald.ttf);
-    font-display: fallback;
-  }
-
-  @font-face {
     font-family: 'Inter';
     src: url(/assets/font/Inter.ttf);
     font-display: fallback;
@@ -30,14 +18,6 @@
     font-family: 'Lato' !important;
   }
  
-  .font-diary {
-    font-family: 'ClassicalDiary' !important;
-  }
-
-  .font-oswald {
-    font-family: 'Oswald' !important;
-  }
-
   .font-inter {
     font-family: 'Inter' !important;
   }
