@@ -83,7 +83,7 @@ footer.innerHTML =
 
 <!--Copyright section-->
 <div class="p-4 text-center">
-  <p class="text-xs text-color-1">Xioami Corporation © 2023</p>
+  <p class="text-xs text-color-1">Xioami Corporation 2023</p>
 </div>
 
 `

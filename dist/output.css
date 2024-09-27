@@ -658,12 +658,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .ml-4 {
   margin-left: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .inline-block {
@@ -907,6 +907,11 @@ video {
 .bg-neutral-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-orange-1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 171 56 / var(--tw-bg-opacity));
 }
 
 .bg-orange-300 {
@@ -1238,7 +1243,7 @@ video {
 }
 
 .bg-colors-5 {
-  background: #575757;
+  background: #2b2c2d;
 }
 
 .bg-colors-7 {

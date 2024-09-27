@@ -27,7 +27,7 @@ function Card({ id, name, image, ram, storage, expansion, pantalla, camaraAtras,
           <p class="card-text opacity-0 hidden"> Expandible: ${expansion != "No Data" ? expansion : "Information Not Obtained"} </p>
         </div>
 
-        <a id="card__Buy${id}" class="bg-colors-7 w-66 transition-colors duration-500 flex justify-center my-4 mx-auto p-1.5 rounded-lg cursor-pointer hover:bg-gray-400"> Comprar a ${price} </a>
+        <a id="card__Buy${id}" class="bg-orange-1 w-66 transition-colors duration-500 flex justify-center my-4 mx-auto p-1.5 rounded-lg cursor-pointer hover:bg-gray-400"> Comprar a ${price} </a>
 
         
 
